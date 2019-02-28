@@ -1,6 +1,15 @@
 <template>
 <div id="top">
+  <div class="l-justify-center">
     ここはトップページ
+  </div>
+  <div class="l-justify-center">
+    <el-date-picker
+      v-model="datetime"
+      type="datetime"
+      placeholder="Select!">
+    </el-date-picker>
+  </div>
 </div>
 </template>
 
@@ -8,8 +17,8 @@
 export default {
   name: 'top',
   data () {
-    return {}
-  }
+    return {datetime:''}
+  },
 };
 </script>
 
