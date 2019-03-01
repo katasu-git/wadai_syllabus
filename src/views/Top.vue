@@ -5,12 +5,10 @@
   <div class="l-justify-center u-mt8">
     <Department></Department>
   </div>
-  <div class="l-justify-center u-mt5">
-    <el-date-picker
-      v-model="datetime"
-      type="datetime"
-      placeholder="Select!">
-    </el-date-picker>
+  <div class="searchBar u-mt5 u-width090">
+    <el-input v-model="search" placeholder="科目名で検索" clearable>
+      <el-button slot="append" icon="el-icon-search"></el-button>
+    </el-input>
   </div>
 
 </div>
@@ -23,7 +21,10 @@ import Department from "../components/Department.vue";
 export default {
   name: 'top',
   data () {
-    return {datetime:''}
+    return {
+      datetime:'',
+      search:''
+    }
   },
   components: {
     HeadParts: HeadParts,
@@ -33,4 +34,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+.searchBar {
+  position: absolute;
+  left: 5%;
+}
+
 </style>

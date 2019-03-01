@@ -1,7 +1,7 @@
 <template>
   <div id="headparts">
     <div class="header l-justify-center l-1">
-      <div class="text">WADAI BUS</div>
+      <div class="text">WADAI SYLLABUS</div>
     </div>
   </div>
 </template>

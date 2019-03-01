@@ -73,7 +73,11 @@ html, body {
 }
 
 .l-text-center {
-text-align: center; 
+text-align: center;
+}
+
+.u-width090 {
+  width: 90%;
 }
 
 .u-mt05 {

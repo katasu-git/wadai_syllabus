@@ -160,8 +160,8 @@ export default {
 }
 
 svg {
-  width: 15vw;
-  height: 15vw;
+  width: 7vh;
+  height: 7vh;
 }
 
 .wrapper {
@@ -182,7 +182,7 @@ svg {
 }
 
 .depName {
-  font-size: .7rem;
+  font-size: 2.8vw;
   margin-top: 1vh;
   text-align: center;
   color: rgba(0,0,0,0.54);
