@@ -1,8 +1,9 @@
 <template>
 <div id="top">
-  <div class="l-justify-center">
-    ここはトップページ
-    <HeadParts></HeadParts>
+
+  <HeadParts></HeadParts>
+  <div class="l-justify-center u-mt8">
+    <Department></Department>
   </div>
   <div class="l-justify-center u-mt5">
     <el-date-picker
@@ -17,6 +18,8 @@
 
 <script>
 import HeadParts from "../components/HeadParts.vue";
+import Department from "../components/Department.vue";
+
 export default {
   name: 'top',
   data () {
@@ -24,6 +27,7 @@ export default {
   },
   components: {
     HeadParts: HeadParts,
+    Department: Department,
   }
 };
 </script>

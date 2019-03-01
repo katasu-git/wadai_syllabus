@@ -72,6 +72,14 @@ html, body {
   align-items: center;
 }
 
+.l-text-center {
+text-align: center; 
+}
+
+.u-mt05 {
+  margin-top: .5vh;
+}
+
 .u-mt1 {
   margin-top: 1vh;
 }
@@ -111,4 +119,17 @@ html, body {
 .u-mt10 {
   margin-top: 10vh;
 }
+
+.u-fs090 {
+font-size: 0.9rem;
+}
+
+.u-fs080 {
+font-size: 0.8rem;
+}
+
+.u-fs070 {
+font-size: 0.7rem;
+}
+
 </style>
