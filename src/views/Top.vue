@@ -2,7 +2,7 @@
 <div id="top">
 
   <HeadParts></HeadParts>
-  <div class="l-justify-center u-mt8">
+  <div class="l-justify-center u-mt10">
     <Department></Department>
   </div>
   <div class="searchBar u-mt5 u-width090">

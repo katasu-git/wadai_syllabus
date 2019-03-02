@@ -26,6 +26,6 @@ export default {
 .header {
   box-shadow: 0 3px 6px rgba(0,0,0,0.2);
   background: #1D1D27;
-  height: 6vh;
+  height: 8vh;
 }
 </style>
