@@ -76,8 +76,16 @@ html, body {
 text-align: center;
 }
 
+.u-width100 {
+  width: 100%;
+}
+
 .u-width090 {
   width: 90%;
+}
+
+.u-width080 {
+  width: 80%;
 }
 
 .u-mt05 {
