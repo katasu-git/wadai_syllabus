@@ -4,11 +4,11 @@
 
       <div class="svgWrapper">
         <!--教養-->
-        <svg v-on:click="funcLib" class="lib" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 214 214">
-          <path class="circleLib" d="M107 10a97 97 0 1 1-97 97 97.1 97.1 0 0 1 97-97m0-10a107 107 0 1 0 107 107A107 107 0 0 0 107 0z"/>
+        <svg v-on:click="funcLib" v-bind:style="setLibColor" class="lib" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 214 214">
+          <path d="M107 10a97 97 0 1 1-97 97 97.1 97.1 0 0 1 97-97m0-10a107 107 0 1 0 107 107A107 107 0 0 0 107 0z"/>
           <path d="M93.93 81.47a2.59 2.59 0 1 0-2.59-2.58 2.59 2.59 0 0 0 2.59 2.58zM119.45 81.47a2.59 2.59
             0 1 0-2.59-2.58 2.58 2.58 0 0 0 2.59 2.58z"/>
-          <path class="circleLib" d="M137.3 95.34c7.16-15.39 2.64-27.1-4.27-36.51 2.56-3.45.79-14.6.79-14.6s-19.69 12.1-27.42
+          <path d="M137.3 95.34c7.16-15.39 2.64-27.1-4.27-36.51 2.56-3.45.79-14.6.79-14.6s-19.69 12.1-27.42
             12.14-27.53-11.9-27.53-11.9-1.66 11.17.93 14.59c-6.83 9.47-11.25 21.22-4 36.55-10.48 14.51-16.7 38.93 8.4 61.42 2.28
             2.7 5.44 2.24 6.33-.93 0 0 .06 13.56 16.32 13.49S123.1 156 123.1 156c.92 3.16 4.08 3.6 6.33.88 24.91-22.75 18.48-47.12
             7.87-61.54zm-17.85-26.62a10.17 10.17 0 1 1-10.17 10.17 10.17 10.17 0 0 1 10.17-10.17zm-25.52 0a10.17 10.17 0 1 1-10.17
@@ -22,19 +22,17 @@
             0 0 0-1 .84 2.45 2.45 0 0 0-.54 1.62 1.81 1.81 0 1 1-3.61 0 6.1 6.1 0 0 1 1.34-3.9 7.73 7.73 0 0 1 2.71-2.05 11.66 11.66 0 0 1
             3.63-1H120a11.27 11.27 0 0 1 4.33 1.37 7.26 7.26 0 0 1 2 1.68 6.1 6.1 0 0 1 1.34 3.9 1.81 1.81 0 0 1-1.84 1.77zm2-11.22c-3.29-5.87-4.88-13.57-4.88-21a41
             41 0 0 1 3-16.07l2.71 1.18a38.34 38.34 0 0 0-2.78 14.87c0 7 1.54 14.35 4.5 19.59z"/>
-          </svg>
-          <div class="depName">
-            教養
-          </div>
+        </svg>
+        <div class="depName">教養</div>
       </div>
 
       <div class="svgWrapper">
         <!--経済-->
-        <svg v-on:click="funcEco" class="eco" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 214 214">
-          <path class="circleEco" d="M125.73,63.08s1.1-2.93,7-6.65c5.66-3.57,1.31-8.5-7-6.69C120,
+        <svg v-on:click="funcEco" v-bind:style="setEcoColor" class="eco" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 214 214">
+          <path d="M125.73,63.08s1.1-2.93,7-6.65c5.66-3.57,1.31-8.5-7-6.69C120,
             51,121.94,46.88,113.9,46.88s-6.1,4.11-11.84,2.86c-8.31-1.81-12.65,3.12-7,6.69,
             5.9,3.72,7,6.65,7,6.65Z"/>
-          <path class="circleEco" d="M148.55,114.71a8.57,8.57,0,0,
+          <path d="M148.55,114.71a8.57,8.57,0,0,
             1-4.38,1.21h-14a8.64,8.64,0,0,1-7.76-12.44,8.62,8.62,0,0,1,0-7.59,8.6,8.6,0,0,1,
             0-7.58,8.64,8.64,0,0,1-.46-6.46h-8.64a30.77,30.77,0,0,1-6.73,16.89c-5.28,6.31-13.15,
             10-23.36,11-3.32,6.44-5.69,13.38-5.69,20.38a37.2,37.2,0,0,0,74.39,0A40.62,40.62,0,
@@ -50,24 +48,22 @@
             0,0,0-3.67,1,3,3,0,0,0-1.18,2.48,2.62,2.62,0,0,0,.84,2.11,5.11,5.11,0,0,0,
             2.85.95l3.74.32a10.88,10.88,0,0,1,6.3,2.22,6.68,6.68,0,0,1,2.14,5.37A7.68,7.68,0,0,1,
             125.29,143.67Z"/>
-          <path class="circleEco" d="M148.36,99.68a4.17,4.17,0,0,0-2.43-3.79,4.17,4.17,0,0,0,0-7.58,
+          <path d="M148.36,99.68a4.17,4.17,0,0,0-2.43-3.79,4.17,4.17,0,0,0,0-7.58,
             4.18,4.18,0,0,0-1.76-8h-14a4.18,4.18,0,0,0-1.75,8,4.17,4.17,0,0,0,0,7.58,4.17,4.17,
             0,0,0,0,7.58,4.19,4.19,0,0,0,1.76,8h14a4.18,4.18,0,0,0,1.76-8A4.19,
             4.19,0,0,0,148.36,99.68Z"/>
-          <path class="circleEco" d="M128.16,68H101.52C90,68,86.79,77,77.86,77V105.6l3.9-.18c29.81-2.31,
+          <path d="M128.16,68H101.52C90,68,86.79,77,77.86,77V105.6l3.9-.18c29.81-2.31,
             27.2-28,27.2-28h16.72C135.1,77.38,135.6,68,128.16,68Z"/>
-          <rect class="circleEco" x="61.95" y="73.64" width="11.89" height="38.64"/>
-          <path class="circleEco" d="M107,10a97,97,0,1,1-97,97,97.1,97.1,0,0,1,97-97m0-10A107,107,0,1,0,214,107,
+          <rect x="61.95" y="73.64" width="11.89" height="38.64"/>
+          <path d="M107,10a97,97,0,1,1-97,97,97.1,97.1,0,0,1,97-97m0-10A107,107,0,1,0,214,107,
             107,107,0,0,0,107,0Z"/>
           </svg>
-          <div class="depName">
-            経済
-          </div>
+          <div class="depName">経済</div>
       </div>
 
       <!--工学-->
       <div class="svgWrapper">
-        <svg v-on:click="funcSys" class="sys" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 214 214">
+        <svg v-on:click="funcSys" v-bind:style="setSysColor" class="sys" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 214 214">
           <path class="circleSys" d="M163.8,97.61l-13-3.06A45,45,0,0,0,147,85.24l7-11.32a4.39,
             4.39,0,0,0-.63-5.41l-7.5-7.5a4.39,4.39,0,0,0-5.41-.63l-11.32,7a45.6,45.6,0,0,
             0-9.31-3.84l-3.06-13a4.41,4.41,0,0,0-4.27-3.38h-10.6a4.41,4.41,0,0,0-4.28,3.38l-3.06,
@@ -80,57 +76,51 @@
             5.41-.63l7.5-7.5a4.39,4.39,0,0,0,.63-5.41l-7-11.32a45,45,0,0,0,3.84-9.31l13-3.06a4.38,
             4.38,0,0,0,3.38-4.27V101.88A4.38,4.38,0,0,0,163.8,97.61Zm-56.61,20.61a11,11,0,1,1,
             11-11A11,11,0,0,1,107.19,118.22Z"/>
-          <path class="circleSys" d="M107,10a97,97,0,1,1-97,97,97.1,97.1,0,0,
+          <path d="M107,10a97,97,0,1,1-97,97,97.1,97.1,0,0,
             1,97-97m0-10A107,107,0,1,0,214,107,107,107,0,0,0,107,0Z"/>
         </svg>
-        <div class="depName">
-          工学
-        </div>
+        <div class="depName">工学</div>
       </div>
 
       <div class="svgWrapper">
         <!--教育-->
-        <svg v-on:click="funcEdu" class="edu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 214 214">
-          <path class="circleEdu" d="M166.86,98.23a6.38,6.38,0,0,
+        <svg v-on:click="funcEdu" v-bind:style="setEduColor" class="edu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 214 214">
+          <path d="M166.86,98.23a6.38,6.38,0,0,
             0-4-4.65l-7.07-2.76V98.1l1.34.52a1.93,1.93,0,0,1,
             .66,3.15l-45.42,45.42a3.23,3.23,0,0,1-3.42.72L98.9,
             144v7.28L106,154a10.88,10.88,0,0,0,11.65-2.45l47.48-47.48A6.4,6.4,0,
             0,0,166.86,98.23Z"/>
-          <path class="circleEdu" d="M54.25,117.44c.31-4.43,1.74-10.23,
+          <path d="M54.25,117.44c.31-4.43,1.74-10.23,
             6.67-10L106,125a10.91,10.91,0,0,0,11.68-2.47L161.18,78.7A6.42,6.42,0,0,0,159,
             68.21L114.19,50.8a10.89,10.89,0,0,0-11.68,2.48L52.07,104c-4,3.29-5.07,9.41-5.07,
             14.85s.36,12,6.53,14.5l-1.46-.34,13.58,5.28v-4.86a11.07,11.07,0,0,1,
             .26-2.32l-9.12-3.55C53.88,126.5,53.88,122.55,54.25,117.44Z"/>
-          <path class="circleEdu" d="M73,129.85a5.13,5.13,0,0,0-1.5,3.62V156l9.57-2L93,
+          <path d="M73,129.85a5.13,5.13,0,0,0-1.5,3.62V156l9.57-2L93,
             164.34V141.83a5.11,5.11,0,0,1,1.49-3.62l3.82-3.81L76.84,126Z"/>
-          <path class="circleEdu" d="M107,10a97,97,0,1,1-97,97,97.1,97.1,0,0,1,97-97m0-10A107,107,0,
+          <path d="M107,10a97,97,0,1,1-97,97,97.1,97.1,0,0,1,97-97m0-10A107,107,0,
             1,0,214,107,107,107,0,0,0,107,0Z"/>
         </svg>
-        <div class="depName">
-          教育
-        </div>
+        <div class="depName">教育</div>
       </div>
 
       <div class="svgWrapper">
         <!--観光-->
-        <svg v-on:click="funcTou" class="tou" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 214 214">
-          <path class="circleTou" d="M97.81,57.05h18.13a2.16,2.16,0,0,1,2.16,
+        <svg v-on:click="funcTou" v-bind:style="setTouColor" class="tou" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 214 214">
+          <path d="M97.81,57.05h18.13a2.16,2.16,0,0,1,2.16,
             2.16h7.63V53.66A3.59,3.59,0,0,0,123,50.08c-2.11-.45-4.4-.21-5.93-.45a95.42,
             95.42,0,0,0-10.17-.89,95.64,95.64,0,0,0-10.17.89c-1.52.24-3.81,0-5.93.45A3.58,
             3.58,0,0,0,88,53.66v5.55h7.62A2.17,2.17,0,0,1,97.81,57.05Z"/>
-          <path class="circleTou" d="M134.1,70.82H79.64A10.27,10.27,0,0,0,69.37,
+          <path d="M134.1,70.82H79.64A10.27,10.27,0,0,0,69.37,
             81.09v61a10.27,10.27,0,0,0,10.27,10.27H134.1a10.27,10.27,0,0,0,
             10.27-10.27v-61A10.27,10.27,0,0,0,134.1,70.82Z"/>
-          <rect class="circleTou" x="88.74" y="61.91" width="6.18" height="6.61"/>
-          <rect class="circleTou" x="118.83" y="61.91" width="6.18" height="7.06"/>
-          <circle class="circleTou" cx="84.07" cy="159.7" r="5.19"/>
-          <circle class="circleTou" cx="129.68" cy="159.7" r="5.19"/>
-          <path class="circleTou" d="M107,10a97,97,0,1,1-97,97,97.1,97.1,0,0,1,97-97m0-10A107,
+          <rect x="88.74" y="61.91" width="6.18" height="6.61"/>
+          <rect x="118.83" y="61.91" width="6.18" height="7.06"/>
+          <circle cx="84.07" cy="159.7" r="5.19"/>
+          <circle cx="129.68" cy="159.7" r="5.19"/>
+          <path d="M107,10a97,97,0,1,1-97,97,97.1,97.1,0,0,1,97-97m0-10A107,
             107,0,1,0,214,107,107,107,0,0,0,107,0Z"/>
         </svg>
-        <div class="depName">
-          観光
-        </div>
+        <div class="depName">観光</div>
       </div>
     </div>
     <div class="l-justify-center">
@@ -145,7 +135,7 @@ export default {
   name: "department",
   data() {
     return {
-      libOn: 0,
+      libOn: 1,
       ecoOn: 0,
       sysOn: 0,
       eduOn: 0,
@@ -154,26 +144,78 @@ export default {
   },
   methods: {
     funcLib: function() {
+      //0の時はオフ 1の時にアクティブ
       if(this.libOn === 0) {
         this.libOn = 1;
-        console.log("hello");
       } else {
         this.libOn = 0;
-        console.log("hi");
       }
     },
     funcEco: function() {
-      console.log("hello!");
+      if(this.ecoOn === 0) {
+        this.ecoOn = 1;
+      } else {
+        this.ecoOn = 0;
+      }
     },
     funcSys: function() {
-      console.log("hello!");
+      if(this.sysOn === 0) {
+        this.sysOn = 1;
+      } else {
+        this.sysOn = 0;
+      }
     },
     funcEdu: function() {
-      console.log("hello!");
+      if(this.eduOn === 0) {
+        this.eduOn = 1;
+      } else {
+        this.eduOn = 0;
+      }
     },
     funcTou: function() {
-      console.log("hello!");
+      if(this.touOn === 0) {
+        this.touOn = 1;
+      } else {
+        this.touOn = 0;
+      }
     }
+  },
+  computed: {
+    setLibColor: function() {
+      if(this.libOn === 0) {
+        return {"fill": "rgba(0,0,0,0.26)"};
+      } else {
+        return {"fill": "#4285F4"};
+      }
+    },
+    setEcoColor: function() {
+      if(this.ecoOn === 0) {
+        return {"fill": "rgba(0,0,0,0.26)"};
+      } else {
+        return {"fill": "#34A853"};
+      }
+    },
+    setSysColor: function() {
+      if(this.sysOn === 0) {
+        return {"fill": "rgba(0,0,0,0.26)"};
+      } else {
+        return {"fill": "#FBBC05"};
+      }
+    },
+    setEduColor: function() {
+      if(this.eduOn === 0) {
+        return {"fill": "rgba(0,0,0,0.26)"};
+      } else {
+        return {"fill": "#EA4335"};
+      }
+    },
+    setTouColor: function() {
+      if(this.touOn === 0) {
+        return {"fill": "rgba(0,0,0,0.26)"};
+      } else {
+        return {"fill": "#3D6EC9"};
+      }
+    },
   }
 };
 </script>
@@ -202,27 +244,7 @@ svg {
   background: rgba(0,0,0,0.12);
 }
 
-.lib {
-  fill: var(--libColor);
-}
-
-.eco {
-  fill: var(--ecoColor);
-}
-
-.sys {
-  fill: var(--sysColor);
-}
-
-.edu {
-  fill: var(--eduColor);
-}
-
-.tou {
-  fill: var(--touColor);
-}
-
-.circleLib {
+/*.circleLib {
   fill: #4285F4;
 }
 
@@ -240,7 +262,7 @@ svg {
 
 .circleTou {
   fill: #3D6EC9;
-}
+}*/
 
 .depName {
   font-size: 2.8vw;
