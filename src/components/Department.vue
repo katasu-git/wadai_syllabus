@@ -135,12 +135,21 @@ export default {
   name: "department",
   data() {
     return {
-      libOn: 1,
+      libOn: 0,
       ecoOn: 0,
       sysOn: 0,
       eduOn: 0,
       touOn: 0,
     }
+  },
+  updated: function() {
+      this.$emit('input', {
+        libOn: this.libOn,
+        ecoOn: this.ecoOn,
+        sysOn: this.sysOn,
+        eduOn: this.eduOn,
+        touOn: this.touOn,
+      })
   },
   methods: {
     funcLib: function() {
@@ -243,26 +252,6 @@ svg {
   height: 1px;
   background: rgba(0,0,0,0.12);
 }
-
-/*.circleLib {
-  fill: #4285F4;
-}
-
-.circleEco {
-  fill: #34A853;
-}
-
-.circleSys {
-  fill: #FBBC05;
-}
-
-.circleEdu {
-  fill: #EA4335;
-}
-
-.circleTou {
-  fill: #3D6EC9;
-}*/
 
 .depName {
   font-size: 2.8vw;

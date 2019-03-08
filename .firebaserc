@@ -1,5 +1,6 @@
 {
   "projects": {
-    "wadai_syllabus": "wadai-syllabus"
+    "wadai_syllabus": "wadai-syllabus",
+    "default": "wadai-syllabus"
   }
 }
