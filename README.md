@@ -1,6 +1,6 @@
 # wadai_syllabus
 
-> A Vue.js project
+<p>和歌山大学のシラバス（授業検索）。制作中。</p>
 
 ## Build Setup
 
